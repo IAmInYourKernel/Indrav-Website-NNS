@@ -54,7 +54,7 @@ const Footer = () => {
       <hr className="my-10 border-gray-600 relative z-10" />
 
       {/* Bottom Row */}
-      <div className="relative z-10 max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center text-xs text-gray-400 gap-4">
+      <div className="relative z-10 max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center text-xs text-gray-100 gap-4">
         <div>© 2023 Fiance Move All rights reserved</div>
         <div className="flex gap-2 flex-wrap justify-center md:justify-end">
           <span className="hover:underline cursor-pointer">Terms & Conditions</span>|
