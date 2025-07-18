@@ -6,8 +6,7 @@ import FAQ from "./pages/FAQ";
 import Footer from "./pages/Footer";
 import "./index.css";
 import bgImage from "./assets/Group.png";
-import Subscribe from "./components/subscribe";
-import React from "react";
+
 
 
 
@@ -29,7 +28,6 @@ const App = () => {
       <Products />
       <Testimonials />
       <FAQ />
-      <Subscribe />
       <Footer />
     </div>
   );

@@ -1,5 +1,5 @@
 
-import indravLogo from "../assets/indravLogo.png";
+import indravLogo from "../assets/logo.jpg";
 
 const Navbar = () => {
   return (

@@ -1,6 +1,6 @@
-import shraddha from "../assets/shraddha.png";
-import nexus from "../assets/nexus.png";
-import niti from "../assets/niti.png";
+import shraddha from "../assets/sraddha.jpg";
+import nexus from "../assets/NEXUS.png";
+import niti from "../assets/NITI.jpg";
 
 const Products = () => {
   const products = [
@@ -16,8 +16,8 @@ const Products = () => {
       image: niti, 
     },
     {
-      name: "Shraddha",
-      description: "Shraddha is a care platform that supports the daily needs and well-being of elderly people.",
+      name: "Sraddha",
+      description: "Sraddha is a care platform that supports the daily needs and well-being of elderly people.",
       link: "https://shraddha.lovable.app/",
       image: shraddha,
     },
@@ -38,7 +38,7 @@ const Products = () => {
       </p>
 
       
-      <div className="flex flex-row justify-center items-start gap-8 max-w-full">
+      <div className="flex flex-row justify-center items-start gap-8 max-w-full overflow-x-auto pb-4 custom-scrollbar">
         {products.map((product, index) => {
           const card = (
             <div className="w-[300px] rounded-xl overflow-hidden hover:shadow-xl hover:scale-105 transition duration-300 cursor-pointer">

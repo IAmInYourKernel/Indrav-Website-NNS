@@ -1,10 +1,13 @@
-import indravLogo from "../assets/indravLogo.png";
+import indravLogo from "../assets/logo.jpg";
+import Subscribe from "../components/subscribe";
 const Footer = () => {
   return (
     <footer className="relative text-white px-6 pt-20 pb-10">
+      <Subscribe />
+      
       <div className="relative z-10 max-w-7xl mx-auto flex flex-row justify-between items-start gap-10">
         {/* Logo Left */}
-        <div className="flex-shrink-0">
+        <div className="flex-shrink-0 ml-auto">
           <img
             src={indravLogo}
             alt="Indrav Logo"
@@ -13,7 +16,7 @@ const Footer = () => {
         </div>
 
         {/* Links Right */}
-        <div className="flex flex-row justify-between gap-20 flex-wrap">
+        <div className="flex flex-row justify-between gap-20 flex-wrap ml-auto">
           {/* Company */}
           <div>
             <h3 className="font-semibold text-white mb-3">Company</h3>

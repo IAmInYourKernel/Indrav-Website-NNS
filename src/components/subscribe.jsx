@@ -9,8 +9,7 @@ const Subscribe = () => {
             Join Indrav—Your Gateway to Smarter Healthcare
           </h2>
           <p className="text-sm md:text-base text-white/80">
-            Subscribe today to access connected health services, seamless digital care,
-            and a healthier tomorrow—powered by Indrav.
+            Coming Soon...
           </p>
         </div>
 
@@ -19,12 +18,12 @@ const Subscribe = () => {
           <input
             type="email"
             placeholder="Enter Your work email"
-            className="px-3 py-3 rounded-md text-black w-full md:w-72 focus:outline-none"
+            className="px-2 py-2 rounded-md text-black w-full md:w-60 focus:outline-none"
             required
           />
           <button
             type="submit"
-            className="bg-yellow-400 text-black px-5 py-3 rounded-md font-semibold hover:bg-yellow-500 transition"
+            className="bg-yellow-400 text-black px-4 py-2 rounded-md font-semibold hover:bg-yellow-500 transition"
           >
             Get started
           </button>
